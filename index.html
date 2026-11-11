@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dāo Katana | Pre-built gaming PC by Dāo Computers</title>
+  <meta name="description" content="Dāo Katana is a pre-built gaming PC from Dāo Computers with AMD Ryzen 7, NVIDIA GeForce RTX and Windows 11 Pro. Demo website.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;1,800;1,900&family=Zen+Old+Mincho:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" aria-label="Dāo Computers home">
+      <img src="images/icon.png" alt="" width="40" height="40">
+      <span>Dāo Computers</span>
+    </a>
+    <button class="nav__toggle" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+    <nav class="nav__menu" id="menu">
+      <a href="#about">About</a>
+      <a href="#build">The build</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#why">Why Dāo</a>
+      <a class="btn btn--sm" href="#contact">Inquire</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <span class="hero__kanji" aria-hidden="true">刀</span>
+      <div class="hero__text">
+        <p class="tag">Pre-built gaming PC</p>
+        <h1>Dāo<br>Katana</h1>
+        <p class="hero__lead">One machine, built sharp. AMD Ryzen 7, NVIDIA GeForce RTX and Windows 11 Pro, assembled and ready to play.</p>
+        <div class="hero__actions">
+          <button class="btn" id="powerBtn" aria-pressed="false">Power on</button>
+          <a class="btn btn--ghost" href="#build">See the build</a>
+        </div>
+        <p class="slogan">Play. Game. Dominate.</p>
+      </div>
+      <figure class="hero__media">
+        <img id="heroImg" src="images/build.jpg" alt="Dāo Katana gaming PC with a glass side panel and cyan fans">
+        <figcaption id="heroCap">Lights off. Press Power on.</figcaption>
+      </figure>
+    </section>
+
+    <section class="strip" aria-label="Highlights">
+      <ul>
+        <li><strong>AMD Ryzen 7</strong> Processor</li>
+        <li><strong>NVIDIA RTX</strong> Graphics</li>
+        <li><strong>Smooth</strong> Gameplay</li>
+        <li><strong>Efficient</strong> Cooling</li>
+        <li><strong>Reliable</strong> Pre-built PC</li>
+      </ul>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about__title">
+        <h2>The name means blade.</h2>
+      </div>
+      <div class="about__body">
+        <p>Dāo (刀) is the Chinese word for a single-edged blade. It is the idea behind every machine we put together: cut out the extras, keep what matters for gaming, and make it reliable.</p>
+        <p>Dāo Katana is our first pre-built. It pairs a Ryzen 7 processor with a GeForce RTX graphics card on an MSI B550-A PRO board, cooled by a tower cooler and a wall of fans behind a tempered glass panel.</p>
+        <p class="note">This is a demo website made for a school exhibit. Dāo Computers is a concept brand and nothing here is for sale.</p>
+      </div>
+    </section>
+
+    <section class="section build" id="build">
+      <div class="build__head">
+        <h2>Inside the Katana</h2>
+        <p>Everything you can see through the glass, and what it does.</p>
+      </div>
+      <div class="build__grid">
+        <figure class="build__photo">
+          <img src="images/motherboard.jpg" alt="MSI B550-A PRO motherboard with a Ryzen processor installed" loading="lazy">
+          <figcaption>MSI B550-A PRO with Ryzen 7 installed in the AM4 socket</figcaption>
+        </figure>
+        <dl class="specs">
+          <div><dt>Processor</dt><dd>AMD Ryzen 7</dd></div>
+          <div><dt>Graphics</dt><dd>NVIDIA GeForce RTX</dd></div>
+          <div><dt>Motherboard</dt><dd>MSI B550-A PRO, PCIe 4.0 ready</dd></div>
+          <div><dt>Cooling</dt><dd>Tower cooler with live temperature display, plus RGB case fans</dd></div>
+          <div><dt>Case</dt><dd>Tempered glass side panel, mesh vents</dd></div>
+          <div><dt>Software</dt><dd>Windows 11 Pro, ready for gaming and productivity</dd></div>
+          <div><dt>Memory and storage</dt><dd>Configurable, ask us</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <h2>Photos from the bench</h2>
+      <div class="gallery__grid">
+        <button class="shot shot--wide" data-full="images/running.jpg" data-cap="The cooler shows the CPU temperature live.">
+          <img src="images/running.jpg" alt="Dāo Katana powered on with white fans and a temperature display" loading="lazy">
+          <span>Running</span>
+        </button>
+        <button class="shot" data-full="images/build.jpg" data-cap="Cyan fans and a GeForce RTX card behind glass.">
+          <img src="images/build.jpg" alt="Side view of the Katana with cyan lighting" loading="lazy">
+          <span>Side view</span>
+        </button>
+        <button class="shot" data-full="images/poster.png" data-cap="The Dāo Computers campaign poster.">
+          <img src="images/poster.png" alt="Dāo Computers poster for the pre-built gaming PC" loading="lazy">
+          <span>Poster</span>
+        </button>
+      </div>
+      <p class="hint">Tap a photo to enlarge it. Photos turn to color on hover.</p>
+    </section>
+
+    <section class="section why" id="why">
+      <h2>Why Dāo</h2>
+      <div class="why__grid">
+        <article>
+          <h3>Smooth gameplay</h3>
+          <p>A Ryzen 7 and a GeForce RTX card are matched so neither one waits on the other.</p>
+        </article>
+        <article>
+          <h3>Efficient cooling</h3>
+          <p>A tower cooler and multiple case fans keep air moving, and the display on the cooler lets you watch the temperature.</p>
+        </article>
+        <article>
+          <h3>Reliable out of the box</h3>
+          <p>Parts are assembled, cable-managed and installed with Windows 11 Pro, so you plug in and play.</p>
+        </article>
+        <article>
+          <h3>Looks the part</h3>
+          <p>Black hardware, a glass panel and a single glow of light. No clutter.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact__text">
+        <h2>Ask about the Katana</h2>
+        <p>Fill in the form to send a demo inquiry. Nothing is sent anywhere because this is a test site.</p>
+        <a class="site" href="#top">www.daocomputers.com</a>
+      </div>
+      <form class="form" id="form" novalidate>
+        <label>Name
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>Message
+          <textarea name="msg" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send inquiry</button>
+        <p class="form__status" id="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <img src="images/logo.png" alt="Dāo Computers" width="220">
+    <p>Level up with Dāo. Demo website for the BSIT 1 exhibit finals. <span id="year"></span></p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Close photo">Close</button>
+    <img id="lbImg" src="" alt="">
+    <p id="lbCap"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
